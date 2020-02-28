@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Matcha App</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div>
+      <h1>✔️ Better <span id='dynam'></span></h1>
+      <p>A simple tasklist with powerful features. Organize your life quickly and efficiently with Matcha.</p>
+      <button disabled>Coming Soon</button>
+    </div>
+    <img src='1.png'></img>
+  </body>
+</html>
+
+<script>
+  const type = string => {
+      document.getElementById("dynam").innerHTML = '';
+    	var i = 0;
+    	var txt = string;
+      var chatWindow = document.getElementById("dynam");
+    	if (i < txt.length) {
+    	    setInterval(function(){
+    	    	if (i < txt.length) {
+    			    chatWindow.innerHTML += txt.charAt(i);
+    			    i++;
+    			  }
+    	    }, 55);
+    	  }
+  }
+
+  function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, 1000* ms));
+  }
+
+  async function hi(){
+    var i = false;
+    while(i==false){
+      type('Organization.');
+      await sleep(3);
+      type('Productivity.');
+      await sleep(3);
+      type('Accountability.');
+      await sleep(3);
+      type('Lifestyle.');
+      await sleep(3);
+    }
+  }
+  hi()
+</script>

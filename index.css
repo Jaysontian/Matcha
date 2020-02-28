@@ -1,0 +1,35 @@
+body {
+  display:flex;
+  justify-content: space-around;
+  font-size:13pt;
+  -webkit-font-smoothing:antialiased;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+img {
+  border-radius:10px;
+  box-shadow:0px 0px 15px 6px rgba(0,0,0,0.15);
+  margin-top:100px;
+  width:450px;
+}
+
+p {
+  width:400px;
+  color:rgba(0,0,0,0.7);
+  line-height:28px;
+}
+
+h1 {
+  margin-top:200px;
+}
+
+button {
+  font-size:12pt;
+  padding:10px 20px;
+  border-radius:5px;
+  border: 2px solid rgba(0,0,0,0.15);
+  margin-top:20px;
+  color:rgba(0,0,0,0.5);
+  font-weight:bold;
+  outline:none;
+}
