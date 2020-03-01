@@ -1,21 +1,46 @@
 body {
-  display:flex;
-  justify-content: space-around;
   font-size:13pt;
   -webkit-font-smoothing:antialiased;
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-  padding-left:150px;
+  padding:0px 10%;
+  background-color:rgba(0,0,0,0.1)
 }
 
-img {
+.head {
+  display:flex;
+  justify-content: space-between;
+  margin-bottom:150px;
+}
+
+#sample {
   border-radius:10px;
   box-shadow:0px 0px 15px 6px rgba(0,0,0,0.15);
   margin-top:100px;
   width:450px;
 }
 
+.wrapbox {
+  width:750px;
+  margin:auto;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.wrapbox div {
+  width:350px;
+  margin-bottom:20px;
+}
+
+.wrapbox p {
+  font-size:12pt;
+  line-height:25px;
+}
+
+i {
+  margin-right:15px;
+}
 p {
-  width:400px;
   color:rgba(0,0,0,0.7);
   line-height:28px;
 }
@@ -24,13 +49,20 @@ h1 {
   margin-top:200px;
 }
 
-button {
+a {
   font-size:12pt;
   padding:10px 20px;
   border-radius:5px;
-  border: 2px solid rgba(0,0,0,0.15);
-  margin-top:20px;
-  color:rgba(0,0,0,0.5);
+  background-color: #689949;
+  margin-top:50px;
+  color:#ccf0b6;
   font-weight:bold;
   outline:none;
+  cursor:pointer;
+  text-decoration: none;
+  transition: background-color 0.4s ease-in-out;
+}
+
+a:hover {
+  background-color:#9dd180;
 }
