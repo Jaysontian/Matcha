@@ -1,0 +1,97 @@
+body {
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing:antialiased;
+    background-color:rgb(32, 32, 32);
+    color:white;
+    margin:0px;
+    margin-bottom:40px;
+    overflow-x: hidden;
+}
+
+.titlecon{
+    margin:50px auto;
+    margin-bottom:25px;
+    margin-top:0px;
+    width:85%;
+    max-width:650px;
+}
+
+h1{
+    font-weight:800;
+    font-size:60px;
+    max-width:600px;
+    width:100%;
+}
+p{
+    font-weight:400;
+    font-size:19px;
+    line-height:30px;
+}
+
+#mainimage {
+    width:85%;
+    margin:auto;
+    min-width:500px;
+    max-width:1000px;
+    box-shadow: 0px 10px 35px 10px rgba(0, 0, 0, 0.774);
+    border-radius:15px;
+}
+
+nav {
+    width:92vw;
+    padding:20px 4vw;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav #logo {
+    width:50px;
+    height:50px;
+    margin-right:20px;
+}
+
+.links{
+    display:flex;
+    width:400px;
+    float:right;
+    justify-content: space-around;
+    align-items: center;
+    height:100%;
+}
+
+.links a{
+    font-weight:500;
+    font-size:17px;
+    border-bottom:2px solid rgba(255, 255, 255, 0.24);
+    cursor:pointer;
+    text-decoration: none;
+}
+
+.links a:hover{
+    border-bottom:2px solid rgba(255, 255, 255, 0.705);
+}
+
+.links #download{
+    color:white;
+    background-color:rgb(77, 170, 77);
+    padding: 10px 20px;
+    border-bottom:none;
+    border-radius:5px;
+    font-weight:700;
+}
+
+a {
+    color:white;
+    text-decoration: none;
+    border-bottom: 2px solid white;
+    font-weight:bold;
+}
+
+footer {
+    text-align:center;
+    margin-top:100px;
+}
