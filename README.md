@@ -1,2 +1,2 @@
 # Matcha
-To do app for MacOS.
+Check out write up and study on [my website](jaysontian.com).
